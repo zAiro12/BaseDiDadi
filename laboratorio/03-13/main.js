@@ -1,0 +1,5 @@
+function suca(){
+
+    alert("suca!")
+
+}
