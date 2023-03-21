@@ -1,0 +1,44 @@
+body{
+    background-color: blue;
+}
+
+.container{
+    width: 100%;
+    color: white;
+}
+
+h1{
+    font-size: 48px;
+    text-align: center;
+    color: red;
+    text-transform: uppercase;
+}
+
+.sottotitolo{
+    width: 100%;
+    text-align: center;
+}
+
+.sottotitolo p{
+    margin: 0 50px;
+    font-size: 30px;
+}
+
+.link{
+    width: 90%;
+    text-align: center;
+    border: 20px dotted green;
+    margin: 100px auto;
+}
+
+.link:hover{
+    background-color: yellow;
+    border: 20px dotted black;
+}
+
+a{
+    text-decoration: none;
+    color: violet;
+    font-family: 'Rubik Iso', cursive;
+    font-size: 40px;
+}
