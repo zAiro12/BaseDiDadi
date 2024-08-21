@@ -1,0 +1,62 @@
+body{
+    cursor: url('../img/roma.png') !important;
+}
+
+#conteiner{
+    border: 3px solid red;
+    height: 300px;
+}
+
+#margin{
+    border: 2px dotted green;
+}
+
+#sotto{
+    border: 2px dotted blue;
+}
+
+#tre{
+    height: calc(100% / 3);
+}
+
+#attivo{
+    border: 2px solid red;
+    border-radius: 20px;
+}
+
+#attivo:hover{
+    background-color: red;
+    color: white;
+}
+
+
+
+-webkit-scrollbar {
+    width: 20px;
+    height: 20px;
+}
+   
+-webkit-scrollbar-thumb {
+    background: linear-gradient( 
+        to bottom, 
+        #ff850a,
+        #ff3474
+    );
+    border-radius: 50px;
+}
+    
+::-webkit-scrollbar-track {
+    background: #474747;
+}
+
+@keyframes shake {
+    25%{
+        translate: 6px 0;
+    }
+    50%{
+        translate: -6px 0;
+    }
+    75%{
+        translate: 6px 0;
+    }
+}
